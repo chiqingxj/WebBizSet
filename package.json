@@ -1,0 +1,29 @@
+{
+    "name": "web-biz-set",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "clear": "rimraf pnpm-lock.yaml && rimraf packages/*/{dist, node_modules} && rimraf node_modules"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/chiqingxj/WebBizSet.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/chiqingxj/WebBizSet/issues"
+    },
+    "homepage": "https://github.com/chiqingxj/WebBizSet#readme",
+    "devDependencies": {
+        "@antfu/eslint-config": "~2.10.0",
+        "@types/node": "^20.12.11",
+        "eslint": "^8.57.0",
+        "eslint-plugin-format": "^0.1.1",
+        "rimraf": "^5.0.7",
+        "typescript": "^5.4.5"
+    }
+}
